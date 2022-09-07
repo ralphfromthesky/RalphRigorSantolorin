@@ -474,7 +474,7 @@ header.sticky{
 img {
 	border-radius: 50px;
 	background: #e0e0e0;
-	box-shadow:  20px 20px 19px #bebebe,
+	box-shadow:  20px 20px 19px #777777,
              -20px -20px 19px #ffffff;
 			 transition: .6s;
 
