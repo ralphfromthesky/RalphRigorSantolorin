@@ -471,6 +471,20 @@ header.sticky{
 	grid-template-columns: 1fr 1fr;
 }
 
+img {
+	border-radius: 50px;
+	background: #e0e0e0;
+	box-shadow:  20px 20px 19px #bebebe,
+             -20px -20px 19px #ffffff;
+			 transition: .6s;
+
+}
+img:hover {
+	transition: .6s;
+	transform: translateY(-20px);
+
+}
+
 @media (max-width: 1425px){
 	header{
 		padding: 16px 3%;
