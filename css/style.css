@@ -466,6 +466,10 @@ header.sticky{
 	font-size: var(--p-font);
 	letter-spacing: 1px;
 }
+.mainPortfolio {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
 
 @media (max-width: 1425px){
 	header{
@@ -563,5 +567,15 @@ header.sticky{
 @media (max-width: 540px){
 	.contact .action form input[type="email"] {
 		width: 310px;
+	}
+}
+@media screen and (max-width: 400px) {
+	.portfolio-content {
+		display: grid;
+		grid-template-columns: 1fr;
+	}
+	.service-content {
+		display: grid;
+		grid-template-columns: 1fr;
 	}
 }
