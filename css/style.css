@@ -602,3 +602,8 @@ img:hover {
 	}
 	
 }
+@media screen and (max-width: 600px) {
+	#download {
+		display: none;
+	}
+} 
